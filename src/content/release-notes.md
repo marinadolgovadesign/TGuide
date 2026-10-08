@@ -6,6 +6,18 @@ Versions follow [semver](https://semver.org): breaking token or component API ch
 
 ---
 
+## 1.0.1 — 6 October 2026
+
+**Design system and release notes in the main menu.** Both pages were only linked from the footer; they now sit in the top menu as pages of their own.
+
+### Changed
+- **TopMenu:** the right-hand links are now about · design system · release notes. Design system shows from 1024 px and release notes from 1280 px; the mobile drawer lists all of them. The footer links stay.
+- **NavItem docs:** labels may be one or two words ("design system").
+
+**Affected:** TopMenu, NavItem (docs) · pages /design-system, /release-notes
+
+---
+
 ## 1.0.0 — 6 October 2026
 
 **React + Tailwind implementation.** The Figma system is now a working codebase: every token, component and the sample page are built in Vite, React 19, TypeScript and Tailwind CSS v4.

@@ -14,5 +14,5 @@
 
 **Tokens.** `text/primary`, `text/brand`, `border/subtle`.
 
-**Do.** Keep labels lowercase, one word.
+**Do.** Keep labels lowercase and short: one or two words ("design system").
 **Don't.** Use NavItem for in-page actions.

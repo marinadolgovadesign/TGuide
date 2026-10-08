@@ -183,7 +183,7 @@
     "group": "organisms",
     "node": "6:51",
     "description": "Top-menu link. Figma: nav item (6:51). When to use: Only inside TopMenu and the mobile drawer.",
-    "note": "NavItem\nPurpose — Top-menu link. Figma: nav item (6:51).\nWhen to use — Only inside TopMenu and the mobile drawer.\nVariants — State = active (1 px text/brand underline) | default (subtle underline on hover).\nTokens — text/primary, text/brand, border/subtle.\nDo — Keep labels lowercase, one word.  Don't — Use NavItem for in-page actions.\nCode — src/components/organisms/NavItem.tsx · docs NavItem.docs.md"
+    "note": "NavItem\nPurpose — Top-menu link. Figma: nav item (6:51).\nWhen to use — Only inside TopMenu and the mobile drawer.\nVariants — State = active (1 px text/brand underline) | default (subtle underline on hover).\nTokens — text/primary, text/brand, border/subtle.\nDo — Keep labels lowercase and short: one or two words (\"design system\").  Don't — Use NavItem for in-page actions.\nCode — src/components/organisms/NavItem.tsx · docs NavItem.docs.md"
   },
   "SecondRow": {
     "group": "organisms",
@@ -194,7 +194,7 @@
   "TopMenu": {
     "group": "organisms",
     "node": "6:118",
-    "description": "Site header: italic serif links, centred logo, about and View trip. Figma: topmenu (6:118), inspired by In Flow. When to use: At the top of every page, alone or inside Header.",
-    "note": "TopMenu\nPurpose — Site header: italic serif links, centred logo, about and View trip. Figma: topmenu (6:118), inspired by In Flow.\nWhen to use — At the top of every page, alone or inside Header.\nVariants — Active = itineraries | destinations | journal.\nTokens — background/surface, text/primary, action/primary.\nDo — Keep exactly three main links.  Don't — Add icons to the links.\nCode — src/components/organisms/TopMenu.tsx · docs TopMenu.docs.md"
+    "description": "Site header: italic serif links, centred logo, then about · design system · release notes and View trip. Figma: topmenu (6:118), inspired by In Flow. When to use: At the top of every page, alone or inside Header.",
+    "note": "TopMenu\nPurpose — Site header: italic serif links, centred logo, then about · design system · release notes and View trip. Figma: topmenu (6:118), inspired by In Flow.\nWhen to use — At the top of every page, alone or inside Header.\nVariants — Active = itineraries | destinations | journal.\nTokens — background/surface, text/primary, action/primary.\nDo — Keep exactly three main links on the left; put site resources (about, design system, release notes) on the right.  Don't — Add icons to the links.\nCode — src/components/organisms/TopMenu.tsx · docs TopMenu.docs.md"
   }
 }

@@ -12,9 +12,17 @@ export const mainNav = [
   { to: '/journal', label: 'journal' },
 ]
 
+/** Right-hand links: about, then the design system and release notes pages. `show` is the breakpoint each appears at on desktop. */
+export const secondaryNav = [
+  { to: '/about', label: 'about', show: 'md:inline-flex' },
+  { to: '/design-system', label: 'design system', show: 'lg:inline-flex' },
+  { to: '/release-notes', label: 'release notes', show: 'xl:inline-flex' },
+]
+
 /**
- * TopMenu — Figma `topmenu` (6:118). Italic serif links, centred logo, about + View trip.
- * Under 768px the links collapse into a drawer. "View trip" scrolls to the itinerary overview.
+ * TopMenu — Figma `topmenu` (6:118). Italic serif links, centred logo, about · design system · release notes + View trip.
+ * Design system shows from 1024px and release notes from 1280px. Under 768px every link collapses into a drawer.
+ * "View trip" scrolls to the itinerary overview.
  */
 export function TopMenu({ className }: { className?: string }) {
   const [open, setOpen] = useState(false)
@@ -84,7 +92,11 @@ export function TopMenu({ className }: { className?: string }) {
       </Link>
       <span className="flex-1" />
       <div className="hidden items-center gap-32 md:flex">
-        <NavItem to="/about" label="about" />
+        {secondaryNav.map((n) => (
+          <span key={n.to} className={cn('hidden', n.show)}>
+            <NavItem to={n.to} label={n.label} />
+          </span>
+        ))}
         <Button variant="smallCta" onClick={viewTrip}>
           View trip
         </Button>
@@ -111,8 +123,8 @@ export function TopMenu({ className }: { className?: string }) {
               </button>
             </div>
             <nav aria-label="Main" className="flex flex-col items-start gap-24">
-              {[...mainNav, { to: '/about', label: 'about' }].map((n) => (
-                <NavItem key={n.to} {...n} onClick={() => setOpen(false)} />
+              {[...mainNav, ...secondaryNav].map((n) => (
+                <NavItem key={n.to} to={n.to} label={n.label} onClick={() => setOpen(false)} />
               ))}
             </nav>
             <Button variant="smallCta" onClick={viewTrip} className="self-start">
