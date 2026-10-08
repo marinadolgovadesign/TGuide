@@ -1,0 +1,44 @@
+{
+  "$notes": "Component → Figma node map for 'Open in Figma' links: https://www.figma.com/design/pzKtL5ltpGpcV3nrnJS8as/?node-id=<id with : replaced by ->",
+  "fileKey": "pzKtL5ltpGpcV3nrnJS8as",
+  "sections": { "styles": "2:8", "atoms": "3:2", "molecules": "5:16", "organisms": "6:43", "photography": "23:185", "pages": "24:185", "samplePage": "24:187" },
+  "atoms": {
+    "Icon": { "nodes": { "play": "3:7", "pin": "3:11", "calendar": "3:15", "plane": "3:18", "globe": "3:22", "user": "3:26", "more": "3:31", "arrow-down": "3:34", "arrow-right": "3:37", "close": "3:40", "bookmark": "3:43" } },
+    "Status": { "id": "3:56", "variants": { "Status": ["bookable", "popular", "sold out", "off-season"] } },
+    "Switch": { "id": "3:65", "variants": { "State": ["on", "off"], "Size": ["big", "small"] } },
+    "Bookmark": { "id": "3:72", "variants": { "Saved": ["no", "yes"] } },
+    "Tag": { "id": "3:83", "variants": { "Type": ["control", "static", "accent", "on photo"] }, "props": { "Label": "text" } },
+    "SegmentedTabs": { "id": "3:84" },
+    "Button": { "id": "3:109", "variants": { "Type": ["secondary", "on color", "small CTA", "big CTA", "ghost", "day node"], "State": ["default", "hover", "pressed", "focus", "disabled"] } },
+    "Avatar": { "id": "4:13", "variants": { "Person": ["author", "guest", "local"] } },
+    "AvatarGroup": { "id": "4:14" },
+    "ErrorMessage": { "id": "4:24" },
+    "Input": { "id": "4:28" },
+    "TextArea": { "id": "4:33" },
+    "Dropdown": { "id": "4:62", "variants": { "Style": ["default", "on color"], "Filled": ["on", "off"] } },
+    "SeasonChart": { "id": "4:63" },
+    "ProgressBar": { "id": "4:88", "variants": { "Size": ["default", "big"], "Length": ["75%", "20%"] } },
+    "ListRow": { "id": "4:89" }
+  },
+  "molecules": {
+    "Profile": { "id": "5:42", "variants": { "Type": ["long", "short", "short-outlined"] } },
+    "BudgetCard": { "id": "5:43" },
+    "CompareCard": { "id": "5:51" },
+    "DestinationCard": { "id": "5:76" },
+    "DayNode": { "id": "5:101" },
+    "TravelTip": { "id": "5:117" },
+    "ItineraryPreview": { "id": "5:120" },
+    "ItinerarySummary": { "id": "5:148" },
+    "JournalPreview": { "id": "5:161" },
+    "StatCard": { "id": "5:169" }
+  },
+  "organisms": {
+    "NavItem": { "id": "6:51", "variants": { "State": ["active", "default"] } },
+    "TopMenu": { "id": "6:118", "variants": { "Active": ["itineraries", "destinations", "journal"] } },
+    "SecondRow": { "id": "6:147", "variants": { "Type": ["breadcrumbs", "actions"] } },
+    "Header": { "id": "6:148" },
+    "Hero": { "id": "6:272", "variants": { "Style": ["brand", "photo"] }, "photoVariant": "6:240" },
+    "EightDayBoard": { "id": "6:273" },
+    "ChecklistItem": { "id": "6:419", "variants": { "State": ["todo", "done"] } }
+  }
+}

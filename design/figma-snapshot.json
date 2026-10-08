@@ -1,0 +1,1718 @@
+{
+  "fileKey": "pzKtL5ltpGpcV3nrnJS8as",
+  "takenAt": "2026-10-06T15:58:00Z",
+  "note": "Baseline after 1.0.0 sync. Pages: Design System (0:1), Release notes (33:563). Regenerate with the figma-sync skill.",
+  "components": [
+    {
+      "id": "3:109",
+      "name": "btn",
+      "type": "COMPONENT_SET",
+      "description": "Triggers an action or navigation. Figma: btn (3:109), Type × State. When to use: smallCta / bigCta for the main action on a surface; secondary for alternatives; onColor on photos and brand fills; ghost for \"Read more\" links; dayNode to pick a day.",
+      "variants": {
+        "Type": [
+          "secondary",
+          "on color",
+          "small CTA",
+          "big CTA",
+          "ghost",
+          "day node"
+        ],
+        "State": [
+          "default",
+          "hover",
+          "pressed",
+          "focus",
+          "disabled"
+        ]
+      },
+      "size": [
+        1281,
+        440
+      ]
+    },
+    {
+      "id": "3:11",
+      "name": "icon/pin",
+      "type": "COMPONENT",
+      "description": "icon/pin. The 11 Eight Days line icons. Figma: ds-atoms › icons (3:4). When to use: Next to a label to support it (arrow on a CTA, pin on a stop). On its own only with a label.",
+      "variants": {},
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "3:15",
+      "name": "icon/calendar",
+      "type": "COMPONENT",
+      "description": "icon/calendar. The 11 Eight Days line icons. Figma: ds-atoms › icons (3:4). When to use: Next to a label to support it (arrow on a CTA, pin on a stop). On its own only with a label.",
+      "variants": {},
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "3:18",
+      "name": "icon/plane",
+      "type": "COMPONENT",
+      "description": "icon/plane. The 11 Eight Days line icons. Figma: ds-atoms › icons (3:4). When to use: Next to a label to support it (arrow on a CTA, pin on a stop). On its own only with a label.",
+      "variants": {},
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "3:22",
+      "name": "icon/globe",
+      "type": "COMPONENT",
+      "description": "icon/globe. The 11 Eight Days line icons. Figma: ds-atoms › icons (3:4). When to use: Next to a label to support it (arrow on a CTA, pin on a stop). On its own only with a label.",
+      "variants": {},
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "3:26",
+      "name": "icon/user",
+      "type": "COMPONENT",
+      "description": "icon/user. The 11 Eight Days line icons. Figma: ds-atoms › icons (3:4). When to use: Next to a label to support it (arrow on a CTA, pin on a stop). On its own only with a label.",
+      "variants": {},
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "3:31",
+      "name": "icon/more",
+      "type": "COMPONENT",
+      "description": "icon/more. The 11 Eight Days line icons. Figma: ds-atoms › icons (3:4). When to use: Next to a label to support it (arrow on a CTA, pin on a stop). On its own only with a label.",
+      "variants": {},
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "3:34",
+      "name": "icon/arrow-down",
+      "type": "COMPONENT",
+      "description": "icon/arrow-down. The 11 Eight Days line icons. Figma: ds-atoms › icons (3:4). When to use: Next to a label to support it (arrow on a CTA, pin on a stop). On its own only with a label.",
+      "variants": {},
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "3:37",
+      "name": "icon/arrow-right",
+      "type": "COMPONENT",
+      "description": "icon/arrow-right. The 11 Eight Days line icons. Figma: ds-atoms › icons (3:4). When to use: Next to a label to support it (arrow on a CTA, pin on a stop). On its own only with a label.",
+      "variants": {},
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "3:40",
+      "name": "icon/close",
+      "type": "COMPONENT",
+      "description": "icon/close. The 11 Eight Days line icons. Figma: ds-atoms › icons (3:4). When to use: Next to a label to support it (arrow on a CTA, pin on a stop). On its own only with a label.",
+      "variants": {},
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "3:43",
+      "name": "icon/bookmark",
+      "type": "COMPONENT",
+      "description": "icon/bookmark. The 11 Eight Days line icons. Figma: ds-atoms › icons (3:4). When to use: Next to a label to support it (arrow on a CTA, pin on a stop). On its own only with a label.",
+      "variants": {},
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "3:56",
+      "name": "status",
+      "type": "COMPONENT_SET",
+      "description": "Trip availability: a dot plus a tracked label. Figma: status (3:56). When to use: Next to a price or a CTA to say whether the trip can be booked.",
+      "variants": {
+        "Status": [
+          "bookable",
+          "popular",
+          "sold out",
+          "off-season"
+        ]
+      },
+      "size": [
+        136,
+        158
+      ]
+    },
+    {
+      "id": "3:65",
+      "name": "switch",
+      "type": "COMPONENT_SET",
+      "description": "An on/off toggle, e.g. \"Prices in USD\". Figma: switch (3:65), State × Size. When to use: For a setting that applies immediately. Use a checkbox inside forms that are submitted.",
+      "variants": {
+        "State": [
+          "on",
+          "off"
+        ],
+        "Size": [
+          "big",
+          "small"
+        ]
+      },
+      "size": [
+        94,
+        206
+      ]
+    },
+    {
+      "id": "3:7",
+      "name": "icon/play",
+      "type": "COMPONENT",
+      "description": "icon/play. The 11 Eight Days line icons. Figma: ds-atoms › icons (3:4). When to use: Next to a label to support it (arrow on a CTA, pin on a stop). On its own only with a label.",
+      "variants": {},
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "3:72",
+      "name": "bookmark",
+      "type": "COMPONENT_SET",
+      "description": "Save an itinerary to favourites. Also marks checklist items done. Figma: bookmark (3:72). When to use: As a compact toggle on cards, heroes and checklist rows.",
+      "variants": {
+        "Saved": [
+          "no",
+          "yes"
+        ]
+      },
+      "size": [
+        74,
+        126
+      ]
+    },
+    {
+      "id": "3:83",
+      "name": "tag",
+      "type": "COMPONENT_SET",
+      "description": "Destination or theme label. Figma: tag (3:83). Square corners. When to use: static for trip themes (and as a filter toggle with onClick); control for removable choices; accent for highlights; onPhoto over imagery.",
+      "variants": {
+        "Type": [
+          "control",
+          "static",
+          "accent",
+          "on photo"
+        ]
+      },
+      "size": [
+        320,
+        66
+      ]
+    },
+    {
+      "id": "3:84",
+      "name": "segmented",
+      "type": "COMPONENT",
+      "description": "Switch between views of the same content. Figma: segmented (3:84). When to use: Two to four peer views (Overview / Day by day / Map; Light / Dark / System).",
+      "variants": {},
+      "size": [
+        273,
+        38
+      ]
+    },
+    {
+      "id": "4:13",
+      "name": "avatar",
+      "type": "COMPONENT_SET",
+      "description": "Initials for an author, guest or local contributor. Figma: avatar (4:13). When to use: In bylines and traveller groups.",
+      "variants": {
+        "Person": [
+          "author",
+          "guest",
+          "local"
+        ]
+      },
+      "size": [
+        74,
+        178
+      ]
+    },
+    {
+      "id": "4:14",
+      "name": "avatars",
+      "type": "COMPONENT",
+      "description": "Stacked avatars plus a count. Figma: avatars (4:14). When to use: To show who has travelled or saved a route.",
+      "variants": {},
+      "size": [
+        183,
+        32
+      ]
+    },
+    {
+      "id": "4:24",
+      "name": "error",
+      "type": "COMPONENT",
+      "description": "Inline form or validation message. Figma: error (4:24). When to use: Under a field or inside a row that needs attention.",
+      "variants": {},
+      "size": [
+        404,
+        30
+      ]
+    },
+    {
+      "id": "4:28",
+      "name": "input",
+      "type": "COMPONENT",
+      "description": "Single-line text field with a caps label. Figma: input (4:28). When to use: Short free text: email, name, amounts.",
+      "variants": {},
+      "size": [
+        240,
+        70
+      ]
+    },
+    {
+      "id": "4:33",
+      "name": "text_area",
+      "type": "COMPONENT",
+      "description": "Multi-line field for questions and notes. Figma: text_area (4:33). When to use: When the answer may be longer than one line.",
+      "variants": {},
+      "size": [
+        240,
+        106
+      ]
+    },
+    {
+      "id": "4:62",
+      "name": "dropdown",
+      "type": "COMPONENT_SET",
+      "description": "Filter select for region, season or budget. Figma: dropdown (4:62), Style × Filled. When to use: Choosing one value from five or more options. For two to four, use SegmentedTabs.",
+      "variants": {
+        "Style": [
+          "default",
+          "on color"
+        ],
+        "Filled": [
+          "on",
+          "off"
+        ]
+      },
+      "size": [
+        788,
+        106
+      ]
+    },
+    {
+      "id": "4:63",
+      "name": "graph",
+      "type": "COMPONENT",
+      "description": "Seasonality mini chart: 12 months. Figma: graph (4:63). When to use: On destination and itinerary pages to show the best months.",
+      "variants": {},
+      "size": [
+        176,
+        122
+      ]
+    },
+    {
+      "id": "4:88",
+      "name": "bar",
+      "type": "COMPONENT_SET",
+      "description": "Trip or reading progress (day 6 of 8 = 75 %). Figma: bar (4:88), Size × Length. When to use: To show how far along something is. Pair it with a numeric label.",
+      "variants": {
+        "Size": [
+          "default",
+          "big"
+        ],
+        "Length": [
+          "75%",
+          "20%"
+        ]
+      },
+      "size": [
+        642,
+        130
+      ]
+    },
+    {
+      "id": "4:89",
+      "name": "list",
+      "type": "COMPONENT",
+      "description": "An itinerary row in a list. Figma: list (4:89). When to use: In search and filter results.",
+      "variants": {},
+      "size": [
+        770,
+        43
+      ]
+    },
+    {
+      "id": "5:101",
+      "name": "day node",
+      "type": "COMPONENT",
+      "description": "A single day for the route or map builder. Figma: day node (5:101). When to use: In the day-by-day timeline and the local-tip band.",
+      "variants": {},
+      "size": [
+        220,
+        114
+      ]
+    },
+    {
+      "id": "5:117",
+      "name": "travel tip",
+      "type": "COMPONENT",
+      "description": "Editorial tip callout. Figma: travel tip (5:117). When to use: One per section, for the single most useful piece of local knowledge.",
+      "variants": {},
+      "size": [
+        508,
+        108
+      ]
+    },
+    {
+      "id": "5:120",
+      "name": "itinerary preview",
+      "type": "COMPONENT",
+      "description": "Itinerary preview with key stats. Figma: itinerary preview (5:120). When to use: At the top of an itinerary's overview, and in featured lists.",
+      "variants": {},
+      "size": [
+        760,
+        216
+      ]
+    },
+    {
+      "id": "5:148",
+      "name": "itinerary summary",
+      "type": "COMPONENT",
+      "description": "Itinerary summary text and tags. Figma: itinerary summary (5:148). When to use: Under ItineraryPreview.",
+      "variants": {},
+      "size": [
+        760,
+        95
+      ]
+    },
+    {
+      "id": "5:161",
+      "name": "journal preview",
+      "type": "COMPONENT",
+      "description": "Blog or journal entry preview. Figma: journal preview (5:161). When to use: Under a post photo in journal lists.",
+      "variants": {},
+      "size": [
+        760,
+        143
+      ]
+    },
+    {
+      "id": "5:169",
+      "name": "stat card",
+      "type": "COMPONENT",
+      "description": "A single metric. Figma: stat card (5:169). When to use: To call out one number (distance, days, height).",
+      "variants": {},
+      "size": [
+        230,
+        230
+      ]
+    },
+    {
+      "id": "5:42",
+      "name": "profile",
+      "type": "COMPONENT_SET",
+      "description": "Author byline. Figma: profile (5:42). When to use: Under itinerary summaries and journal posts.",
+      "variants": {
+        "Type": [
+          "long",
+          "short",
+          "short-outlined"
+        ]
+      },
+      "size": [
+        742,
+        235
+      ]
+    },
+    {
+      "id": "5:43",
+      "name": "card budget",
+      "type": "COMPONENT",
+      "description": "Budget level at a glance. Figma: card budget (5:43). When to use: In the overview, next to StatCard.",
+      "variants": {},
+      "size": [
+        180,
+        164
+      ]
+    },
+    {
+      "id": "5:51",
+      "name": "compare",
+      "type": "COMPONENT",
+      "description": "Budget vs comfort cost comparison, plus a \"Your trip\" calculator. Figma: compare (5:51). When to use: In the budget section of an itinerary.",
+      "variants": {},
+      "size": [
+        760,
+        400
+      ]
+    },
+    {
+      "id": "5:76",
+      "name": "destination card",
+      "type": "COMPONENT",
+      "description": "Destination overview: season fit, a local tip and travellers. Figma: destination card (5:76). When to use: Beside an itinerary preview, or in destination lists.",
+      "variants": {},
+      "size": [
+        380,
+        234
+      ]
+    },
+    {
+      "id": "6:118",
+      "name": "topmenu",
+      "type": "COMPONENT_SET",
+      "description": "Site header: italic serif links, centred logo, about and View trip. Figma: topmenu (6:118), inspired by In Flow. When to use: At the top of every page, alone or inside Header.",
+      "variants": {
+        "Active": [
+          "itineraries",
+          "destinations",
+          "journal"
+        ]
+      },
+      "size": [
+        1502,
+        346
+      ]
+    },
+    {
+      "id": "6:147",
+      "name": "second-row",
+      "type": "COMPONENT_SET",
+      "description": "Breadcrumbs or page actions under the menu. Figma: second-row (6:147). When to use: On every page below the home level.",
+      "variants": {
+        "Type": [
+          "breadcrumbs",
+          "actions"
+        ]
+      },
+      "size": [
+        1502,
+        200
+      ]
+    },
+    {
+      "id": "6:148",
+      "name": "header",
+      "type": "COMPONENT",
+      "description": "Itinerary page header: menu, breadcrumbs and the 8-day tracker. Figma: header (6:148). When to use: On itinerary pages.",
+      "variants": {},
+      "size": [
+        1460,
+        202
+      ]
+    },
+    {
+      "id": "6:272",
+      "name": "card top",
+      "type": "COMPONENT_SET",
+      "description": "Itinerary hero. Figma: card top (6:272), photo variant 6:240. When to use: At the top of an itinerary page.",
+      "variants": {
+        "Style": [
+          "brand",
+          "photo"
+        ]
+      },
+      "size": [
+        912,
+        1022
+      ]
+    },
+    {
+      "id": "6:273",
+      "name": "8-day board",
+      "type": "COMPONENT",
+      "description": "Itinerary board grouped by days, adapted from Pipeline. Figma: 8-day board (6:273). When to use: \"Stops at a glance\" on itinerary pages.",
+      "variants": {},
+      "size": [
+        1056,
+        336
+      ]
+    },
+    {
+      "id": "6:419",
+      "name": "task",
+      "type": "COMPONENT_SET",
+      "description": "Booking or packing checklist item. Figma: task (6:419). When to use: In \"Before you go\" lists.",
+      "variants": {
+        "State": [
+          "todo",
+          "done"
+        ]
+      },
+      "size": [
+        742,
+        270
+      ]
+    },
+    {
+      "id": "6:51",
+      "name": "nav item",
+      "type": "COMPONENT_SET",
+      "description": "Top-menu link. Figma: nav item (6:51). When to use: Only inside TopMenu and the mobile drawer.",
+      "variants": {
+        "State": [
+          "active",
+          "default"
+        ]
+      },
+      "size": [
+        114,
+        115
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "collection": "Spacing",
+      "name": "space/2",
+      "type": "FLOAT",
+      "values": {
+        "Value": 2
+      }
+    },
+    {
+      "collection": "Spacing",
+      "name": "space/4",
+      "type": "FLOAT",
+      "values": {
+        "Value": 4
+      }
+    },
+    {
+      "collection": "Spacing",
+      "name": "space/8",
+      "type": "FLOAT",
+      "values": {
+        "Value": 8
+      }
+    },
+    {
+      "collection": "Spacing",
+      "name": "space/16",
+      "type": "FLOAT",
+      "values": {
+        "Value": 16
+      }
+    },
+    {
+      "collection": "Spacing",
+      "name": "space/20",
+      "type": "FLOAT",
+      "values": {
+        "Value": 20
+      }
+    },
+    {
+      "collection": "Spacing",
+      "name": "space/24",
+      "type": "FLOAT",
+      "values": {
+        "Value": 24
+      }
+    },
+    {
+      "collection": "Spacing",
+      "name": "space/32",
+      "type": "FLOAT",
+      "values": {
+        "Value": 32
+      }
+    },
+    {
+      "collection": "Spacing",
+      "name": "space/96",
+      "type": "FLOAT",
+      "values": {
+        "Value": 96
+      }
+    },
+    {
+      "collection": "Spacing",
+      "name": "space/12",
+      "type": "FLOAT",
+      "values": {
+        "Value": 12
+      }
+    },
+    {
+      "collection": "Spacing",
+      "name": "space/40",
+      "type": "FLOAT",
+      "values": {
+        "Value": 40
+      }
+    },
+    {
+      "collection": "Spacing",
+      "name": "space/48",
+      "type": "FLOAT",
+      "values": {
+        "Value": 48
+      }
+    },
+    {
+      "collection": "Spacing",
+      "name": "space/64",
+      "type": "FLOAT",
+      "values": {
+        "Value": 64
+      }
+    },
+    {
+      "collection": "Radius",
+      "name": "radius/none",
+      "type": "FLOAT",
+      "values": {
+        "Value": 0
+      }
+    },
+    {
+      "collection": "Radius",
+      "name": "radius/sm",
+      "type": "FLOAT",
+      "values": {
+        "Value": 2
+      }
+    },
+    {
+      "collection": "Radius",
+      "name": "radius/md",
+      "type": "FLOAT",
+      "values": {
+        "Value": 6
+      }
+    },
+    {
+      "collection": "Radius",
+      "name": "radius/full",
+      "type": "FLOAT",
+      "values": {
+        "Value": 999
+      }
+    },
+    {
+      "collection": "Radius",
+      "name": "radius/lg",
+      "type": "FLOAT",
+      "values": {
+        "Value": 12
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "neutral/0",
+      "type": "COLOR",
+      "values": {
+        "Value": "#FFFFFF"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "neutral/50",
+      "type": "COLOR",
+      "values": {
+        "Value": "#F6F3EF"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "neutral/100",
+      "type": "COLOR",
+      "values": {
+        "Value": "#ECE8E3"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "neutral/200",
+      "type": "COLOR",
+      "values": {
+        "Value": "#DCD6CF"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "neutral/300",
+      "type": "COLOR",
+      "values": {
+        "Value": "#CFC9C2"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "neutral/500",
+      "type": "COLOR",
+      "values": {
+        "Value": "#8A8580"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "neutral/700",
+      "type": "COLOR",
+      "values": {
+        "Value": "#4A4744"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "neutral/800",
+      "type": "COLOR",
+      "values": {
+        "Value": "#2E2C2A"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "neutral/900",
+      "type": "COLOR",
+      "values": {
+        "Value": "#1C1C1C"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "neutral/950",
+      "type": "COLOR",
+      "values": {
+        "Value": "#141312"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "neutral/1000",
+      "type": "COLOR",
+      "values": {
+        "Value": "#000000"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/teal/50",
+      "type": "COLOR",
+      "values": {
+        "Value": "#EEF5F5"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/teal/100",
+      "type": "COLOR",
+      "values": {
+        "Value": "#D6E7E8"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/teal/200",
+      "type": "COLOR",
+      "values": {
+        "Value": "#BCD9DA"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/teal/300",
+      "type": "COLOR",
+      "values": {
+        "Value": "#99C4C6"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/teal/500",
+      "type": "COLOR",
+      "values": {
+        "Value": "#498A99"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/teal/700",
+      "type": "COLOR",
+      "values": {
+        "Value": "#2F6370"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/teal/900",
+      "type": "COLOR",
+      "values": {
+        "Value": "#1D3F48"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/sand/100",
+      "type": "COLOR",
+      "values": {
+        "Value": "#F1E8DE"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/sand/300",
+      "type": "COLOR",
+      "values": {
+        "Value": "#DCC6AE"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/sand/500",
+      "type": "COLOR",
+      "values": {
+        "Value": "#C4A380"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/sand/700",
+      "type": "COLOR",
+      "values": {
+        "Value": "#7F6240"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "success/100",
+      "type": "COLOR",
+      "values": {
+        "Value": "#E4E8D6"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "success/500",
+      "type": "COLOR",
+      "values": {
+        "Value": "#6E7B4B"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "success/700",
+      "type": "COLOR",
+      "values": {
+        "Value": "#4E5835"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "warning/100",
+      "type": "COLOR",
+      "values": {
+        "Value": "#F5E3C0"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "warning/500",
+      "type": "COLOR",
+      "values": {
+        "Value": "#C98A2E"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "warning/700",
+      "type": "COLOR",
+      "values": {
+        "Value": "#8F5F17"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "error/100",
+      "type": "COLOR",
+      "values": {
+        "Value": "#F3DED6"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "error/500",
+      "type": "COLOR",
+      "values": {
+        "Value": "#B0563F"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "error/700",
+      "type": "COLOR",
+      "values": {
+        "Value": "#7E3A29"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "hero/background",
+      "type": "COLOR",
+      "values": {
+        "Value": {
+          "alias": "brand/teal/600"
+        }
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "hero/text",
+      "type": "COLOR",
+      "values": {
+        "Value": {
+          "alias": "neutral/0"
+        }
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "hero/accent",
+      "type": "COLOR",
+      "values": {
+        "Value": {
+          "alias": "brand/sand/500"
+        }
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "hero/button-hover",
+      "type": "COLOR",
+      "values": {
+        "Value": {
+          "alias": "brand/teal/700"
+        }
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "hero/button-pressed",
+      "type": "COLOR",
+      "values": {
+        "Value": {
+          "alias": "brand/teal/800"
+        }
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "neutral/600",
+      "type": "COLOR",
+      "values": {
+        "Value": "#6B6661"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/teal/600",
+      "type": "COLOR",
+      "values": {
+        "Value": "#3D7886"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/teal/800",
+      "type": "COLOR",
+      "values": {
+        "Value": "#254E58"
+      }
+    },
+    {
+      "collection": "Primitives",
+      "name": "brand/teal/400",
+      "type": "COLOR",
+      "values": {
+        "Value": "#73A7B0"
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "background/page",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/100"
+        },
+        "Dark": {
+          "alias": "neutral/950"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "background/surface",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/0"
+        },
+        "Dark": {
+          "alias": "neutral/900"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "background/muted",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/50"
+        },
+        "Dark": {
+          "alias": "neutral/800"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "background/brand",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "hero/background"
+        },
+        "Dark": {
+          "alias": "hero/background"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "background/brand-soft",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/teal/300"
+        },
+        "Dark": {
+          "alias": "brand/teal/700"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "background/brand-subtle",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/teal/100"
+        },
+        "Dark": {
+          "alias": "brand/teal/900"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "background/accent",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/sand/500"
+        },
+        "Dark": {
+          "alias": "brand/sand/500"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "background/accent-subtle",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/sand/300"
+        },
+        "Dark": {
+          "alias": "brand/sand/700"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "background/inverse",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/1000"
+        },
+        "Dark": {
+          "alias": "neutral/0"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "action/primary-hover",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "hero/button-hover"
+        },
+        "Dark": {
+          "alias": "hero/button-hover"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "action/primary-pressed",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "hero/button-pressed"
+        },
+        "Dark": {
+          "alias": "hero/button-pressed"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "feedback/success/solid",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "success/500"
+        },
+        "Dark": {
+          "alias": "success/500"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "feedback/success/subtle",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "success/100"
+        },
+        "Dark": {
+          "alias": "success/700"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "feedback/warning/solid",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "warning/500"
+        },
+        "Dark": {
+          "alias": "warning/500"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "feedback/warning/subtle",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "warning/100"
+        },
+        "Dark": {
+          "alias": "warning/700"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "feedback/error/solid",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "error/500"
+        },
+        "Dark": {
+          "alias": "error/500"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "feedback/error/subtle",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "error/100"
+        },
+        "Dark": {
+          "alias": "error/700"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "text/primary",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/900"
+        },
+        "Dark": {
+          "alias": "neutral/50"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "text/secondary",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/700"
+        },
+        "Dark": {
+          "alias": "neutral/300"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "text/muted",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/600"
+        },
+        "Dark": {
+          "alias": "neutral/500"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "text/disabled",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/300"
+        },
+        "Dark": {
+          "alias": "neutral/700"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "text/inverse",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/0"
+        },
+        "Dark": {
+          "alias": "neutral/900"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "text/on-brand",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "hero/text"
+        },
+        "Dark": {
+          "alias": "hero/text"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "text/brand",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/teal/700"
+        },
+        "Dark": {
+          "alias": "brand/teal/300"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "text/accent",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/sand/700"
+        },
+        "Dark": {
+          "alias": "brand/sand/300"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "feedback/success/text",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "success/700"
+        },
+        "Dark": {
+          "alias": "success/100"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "feedback/warning/text",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "warning/700"
+        },
+        "Dark": {
+          "alias": "warning/100"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "feedback/error/text",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "error/700"
+        },
+        "Dark": {
+          "alias": "error/100"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "border/subtle",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/300"
+        },
+        "Dark": {
+          "alias": "neutral/800"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "border/default",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/500"
+        },
+        "Dark": {
+          "alias": "neutral/600"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "border/strong",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/900"
+        },
+        "Dark": {
+          "alias": "neutral/50"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "border/brand",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "hero/background"
+        },
+        "Dark": {
+          "alias": "brand/teal/300"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "border/on-brand",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/0"
+        },
+        "Dark": {
+          "alias": "neutral/0"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "action/primary",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "hero/background"
+        },
+        "Dark": {
+          "alias": "hero/background"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "action/secondary",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/teal/300"
+        },
+        "Dark": {
+          "alias": "brand/teal/700"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "action/secondary-hover",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/teal/400"
+        },
+        "Dark": {
+          "alias": "brand/teal/600"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "action/secondary-pressed",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/teal/500"
+        },
+        "Dark": {
+          "alias": "brand/teal/500"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "action/disabled",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "neutral/200"
+        },
+        "Dark": {
+          "alias": "neutral/800"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "action/link",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/teal/700"
+        },
+        "Dark": {
+          "alias": "brand/teal/300"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "action/link-hover",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/teal/800"
+        },
+        "Dark": {
+          "alias": "brand/teal/200"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "action/focus",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/teal/600"
+        },
+        "Dark": {
+          "alias": "brand/teal/300"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "feedback/info/solid",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/teal/600"
+        },
+        "Dark": {
+          "alias": "brand/teal/600"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "feedback/info/subtle",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/teal/100"
+        },
+        "Dark": {
+          "alias": "brand/teal/900"
+        }
+      }
+    },
+    {
+      "collection": "Semantic",
+      "name": "feedback/info/text",
+      "type": "COLOR",
+      "values": {
+        "Light": {
+          "alias": "brand/teal/700"
+        },
+        "Dark": {
+          "alias": "brand/teal/300"
+        }
+      }
+    }
+  ],
+  "textStyles": [
+    {
+      "name": "H1",
+      "font": "Cormorant Garamond Light",
+      "size": 84,
+      "lineHeight": "80px",
+      "letterSpacing": "-1%",
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "H2",
+      "font": "Cormorant Garamond Light",
+      "size": 40,
+      "lineHeight": "42px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Description",
+      "font": "Cormorant Garamond Light Italic",
+      "size": 30,
+      "lineHeight": "34px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "H3",
+      "font": "Gothic A1 SemiBold",
+      "size": 20,
+      "lineHeight": "26px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "H4",
+      "font": "Gothic A1 SemiBold",
+      "size": 15,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Text - Label",
+      "font": "Gothic A1 Bold",
+      "size": 10,
+      "lineHeight": "14px",
+      "letterSpacing": "15%",
+      "textCase": "UPPER"
+    },
+    {
+      "name": "Text - Body",
+      "font": "Gothic A1 Regular",
+      "size": 13,
+      "lineHeight": "20px",
+      "letterSpacing": "2%",
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Text - Body Bold",
+      "font": "Gothic A1 Bold",
+      "size": 13,
+      "lineHeight": "20px",
+      "letterSpacing": "2%",
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Caps",
+      "font": "Gothic A1 Regular",
+      "size": 9,
+      "lineHeight": "12px",
+      "letterSpacing": "15%",
+      "textCase": "UPPER"
+    },
+    {
+      "name": "Button - Serif",
+      "font": "Cormorant Garamond Light Italic",
+      "size": 20,
+      "lineHeight": "24px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Numeral",
+      "font": "Instrument Serif Regular",
+      "size": 72,
+      "lineHeight": "100%",
+      "letterSpacing": "-1%",
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Numeral S",
+      "font": "Instrument Serif Regular",
+      "size": 24,
+      "lineHeight": "100%",
+      "letterSpacing": "-1%",
+      "textCase": "ORIGINAL"
+    }
+  ]
+}
